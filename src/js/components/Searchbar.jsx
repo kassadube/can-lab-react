@@ -17,7 +17,7 @@ export class SearchBar extends React.Component {
     render () {
         return (
             <div className="row">
-                <div className="col-md-6 col-md-offset-3 H50 ">
+                <div className="col-md-9 col-md-offset-3 H50 ">
                     <form id="formOne" className="form-inline" action="" onSubmit={this.handleAjaxFormSubmit.bind(this)} >
                         <div className="form-group">
                             <input type="text" className="form-control" name="brand" id="brand" placeholder="Brand"/>
